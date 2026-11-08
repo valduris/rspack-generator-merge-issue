@@ -1,0 +1,16 @@
+{
+  "name": "rspack-generator-merge-repro",
+  "private": true,
+  "type": "module",
+  "description": "module.rules generator options: webpack merges them across matching rules, rspack only applies them from the rule that sets `type`",
+  "scripts": {
+    "repro": "node run.ts"
+  },
+  "dependencies": {
+    "@rspack/core": "^2.3.0",
+    "webpack": "^5.108.4"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
